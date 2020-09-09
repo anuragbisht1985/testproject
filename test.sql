@@ -1,3 +1,4 @@
 create test(
-id tinyint unsigned default 0
+id tinyint unsigned default 0,
+name varchar(8)
 );
