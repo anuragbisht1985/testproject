@@ -1,5 +1,6 @@
 create test(
 id tinyint unsigned default 0,
 name varchar(8),
-from_develop_branch varchar(4)
-);
+address varchar(255),
+ip_count tinyint unsigned default 0,
+hash_count tinyint unsigned default 0);
